@@ -1,0 +1,18 @@
+{
+  "name": "auto-view-status-bot",
+  "version": "1.0.0",
+  "description": "WhatsApp Auto View Status Bot",
+  "main": "connect.js",
+  "scripts": {
+    "start": "node ./connect/connect.js"
+  },
+  "author": "IkyyKzy",
+  "license": "MIT",
+  "dependencies": {
+    "@hapi/boom": "^10.0.1",
+    "@whiskeysockets/baileys": "npm:wileys",
+    "jimp": "latest", 
+    "pino": "^7.0.5",
+    "readline": "^1.3.0"
+  }
+}
